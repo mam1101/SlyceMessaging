@@ -94,7 +94,7 @@ public class SlyceMessagingFragment extends Fragment implements OnClickListener 
     }
 
     private void addSpinner() {
-        //mMessages.add(0, new SpinnerMessage());
+        mMessages.add(0, new SpinnerMessage());
         replaceMessages(mMessages, -1);
     }
 
@@ -110,10 +110,10 @@ public class SlyceMessagingFragment extends Fragment implements OnClickListener 
         if (this.moreMessagesExist == moreMessagesExist)
             return;
         this.moreMessagesExist = moreMessagesExist;
-        /*if (moreMessagesExist)
+        if (moreMessagesExist)
             addSpinner();
         else
-            removeSpinner();*/
+            removeSpinner();
         loadMoreMessagesIfNecessary();
     }
 
