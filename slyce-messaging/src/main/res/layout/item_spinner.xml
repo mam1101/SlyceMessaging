@@ -9,6 +9,7 @@
                  android:layout_width="50dp" android:layout_height="50dp"
                  android:id="@+id/loading_bar"
                  style="?android:attr/progressBarStyle"
-                 android:layout_gravity="center_vertical|center_horizontal"/>
+                 android:layout_gravity="center_vertical|center_horizontal"
+                 android:visibility="false"/>
 
 </LinearLayout>
